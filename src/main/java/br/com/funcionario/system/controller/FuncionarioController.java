@@ -55,7 +55,7 @@ public class FuncionarioController {
 		
 	}
 	
-	public void mudaFuncionarioDeDepartamento() {
+	public void mudaFuncionarioDeDepartamento( ) {
 		
 	}
 	

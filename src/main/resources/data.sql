@@ -9,9 +9,9 @@ INSERT INTO CARGO(id, name) VALUES (3, 'DESENVOLVEDOR');
 INSERT INTO CARGO(id, name) VALUES (4, 'PO');
 
 
-INSERT INTO FUNCIONARIO(id, age, birth_day, document, name, cargo_id, departamentos_id ) VALUES (1, 38, '1987-10-10 01:00:00', '12.321.123-65', 'Carlos abrantes', 1 ,1 );
-INSERT INTO FUNCIONARIO(id, age, birth_day, document, name, cargo_id, departamentos_id) VALUES (2, 27, '1989-01-01 01:00:00', '18.654.655-05', 'Carolina Fernan', 1,1 );
-INSERT INTO FUNCIONARIO(id, age, birth_day, document, name, cargo_id, departamentos_id) VALUES (3, 25, '1981-02-08 00:00:00', '22.921.987-15', 'Joao Principal', 3,1 );
+INSERT INTO FUNCIONARIO(id, age, birth_day, document, name, cargo_id, departamentos_id ) VALUES (1, 38, '1987-10-10 01:00:00', '12.321.123-65', 'Carlos abrantes', 1 ,2 );
+INSERT INTO FUNCIONARIO(id, age, birth_day, document, name, cargo_id, departamentos_id) VALUES (2, 27, '1989-01-01 01:00:00', '18.654.655-05', 'Carolina Fernan', 1,2 );
+INSERT INTO FUNCIONARIO(id, age, birth_day, document, name, cargo_id, departamentos_id) VALUES (3, 25, '1981-02-08 00:00:00', '22.921.987-15', 'Joao Principal', 3,2 );
 INSERT INTO FUNCIONARIO(id, age, birth_day, document, name, cargo_id, departamentos_id ) VALUES (4, 19, '1999-04-11 00:00:00', '55.928.658-32', 'Natalia Berue',4,1 );
 INSERT INTO FUNCIONARIO(id, age, birth_day, document, name, cargo_id, departamentos_id ) VALUES (5, 38, '1987-10-10 01:00:00', '12.321.123-65', 'Fernanda abrantes', 1,1 );
 INSERT INTO FUNCIONARIO(id, age, birth_day, document, name, cargo_id, departamentos_id) VALUES (6, 27, '1989-01-01 01:00:00', '18.654.655-05', 'Amadeu Fernan', 1,2 );
@@ -27,8 +27,25 @@ INSERT INTO FUNCIONARIO(id, age, birth_day, document, name, cargo_id, departamen
 INSERT INTO FUNCIONARIO(id, age, birth_day, document, name, cargo_id, departamentos_id ) VALUES (16, 19, '1999-04-11 00:00:00', '55.928.658-32', 'Antonio Berue',2,4 );
 
 
+INSERT INTO HISTORICO_FUNCIONARIO(id, funcionarios_id) VALUES (1,1);
+INSERT INTO HISTORICO_FUNCIONARIO(id, funcionarios_id) VALUES (2,2);
+INSERT INTO HISTORICO_FUNCIONARIO(id, funcionarios_id) VALUES (3,3);
+
+INSERT INTO HISTORICO_FUNCIONARIO_CARGOS(historico_funcionario_id, cargos_id) VALUES ( 1, 1);
+INSERT INTO HISTORICO_FUNCIONARIO_CARGOS(historico_funcionario_id, cargos_id) VALUES ( 1, 4);
+INSERT INTO HISTORICO_FUNCIONARIO_CARGOS(historico_funcionario_id, cargos_id) VALUES ( 1, 3);
+INSERT INTO HISTORICO_FUNCIONARIO_CARGOS(historico_funcionario_id, cargos_id) VALUES ( 1, 2);
+
+INSERT INTO HISTORICO_FUNCIONARIO_CARGOS(historico_funcionario_id, cargos_id) VALUES ( 2, 1);
+INSERT INTO HISTORICO_FUNCIONARIO_CARGOS(historico_funcionario_id, cargos_id) VALUES ( 2, 4);
+INSERT INTO HISTORICO_FUNCIONARIO_CARGOS(historico_funcionario_id, cargos_id) VALUES ( 2, 3);
+INSERT INTO HISTORICO_FUNCIONARIO_CARGOS(historico_funcionario_id, cargos_id) VALUES ( 2, 2);
 
 
+INSERT INTO HISTORICO_FUNCIONARIO_CARGOS(historico_funcionario_id, cargos_id) VALUES ( 3, 1);
+INSERT INTO HISTORICO_FUNCIONARIO_CARGOS(historico_funcionario_id, cargos_id) VALUES ( 3, 4);
+INSERT INTO HISTORICO_FUNCIONARIO_CARGOS(historico_funcionario_id, cargos_id) VALUES ( 3, 3);
+INSERT INTO HISTORICO_FUNCIONARIO_CARGOS(historico_funcionario_id, cargos_id) VALUES ( 3, 2);
 
 
 
