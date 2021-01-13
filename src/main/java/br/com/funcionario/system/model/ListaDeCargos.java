@@ -1,0 +1,7 @@
+package br.com.funcionario.system.model;
+
+public enum ListaDeCargos {
+	
+	ENGENHEIRO,DESENVOLVEDOR,ANALISTA,GERENTE_DEPARTAMENTAL,PO,MANAGER,ASSISTENTE,ESTAGIARIO
+
+}
