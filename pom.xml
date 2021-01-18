@@ -9,8 +9,8 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>br.com.funcionario.system</groupId>
-	<artifactId>funcionario-sys</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<artifactId>funcionario</artifactId>
+	<version>1</version>
 	<name>funcionario-sys</name>
 	<description>Cadastro de funcionário para teste de entrevista</description>
 
